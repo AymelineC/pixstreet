@@ -1,6 +1,40 @@
+.header{
+  padding: 30px 10%;
+  width: 80%;
+  height: 40px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.menuList{
+  padding: 12px 0;
+}
+
+.menuItem{
+  display: inline-block;
+  height: 16px;
+}
+
+.navBarContainer{
+  width: 50%;
+  height: 100%;
+}
+
+.wrap{
+  width: 10%;
+  position: absolute;
+}
+
 .search {
   width: 100%;
-  position: relative
+  position: absolute;
 }
 
 .searchTerm {
@@ -33,7 +67,3 @@
 }
 
 /*Resize the wrap to see the search bar change!*/
-.wrap{
-  width: 10%;
-  position: absolute;
-}
