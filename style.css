@@ -115,7 +115,7 @@ body{
 .slides {
   display: flex;
   overflow-x: hidden;
-
+  overflow-y: hidden;
 
   scroll-behavior: smooth;
 
@@ -132,8 +132,7 @@ body{
   transition: transform 0.5s;
   position: relative;
 
-  display: flex;
-  justify-content: center;
+
   font-size: 100px;
 }
 
@@ -143,6 +142,37 @@ body{
 }
 
 .imageTitle{
+  display: block;
   width: 100%;
   height: 22.333%;
+}
+
+.latestArticlesContainer{
+  height: 200px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.latestArticles{
+  font-size: 48px;
+  font-family: "Fjalla one", sans-serif;
+}
+
+.articlesAllContainer{
+  display: flex;
+  width: 100%;
+  padding: 0 2.71%;
+  justify-content: space-between;
+}
+
+.articlesContainer{
+  width: 32%;
+}
+
+.article{
+  width: 100%;
+}
+
+.imgArticle{
+  width: 100%;
 }
