@@ -14,6 +14,16 @@ body{
   background: white;
 }
 
+.logoContainer{
+  float: left;
+  margin: -25px 0 0 -50px;
+}
+
+.logo{
+  width: 300px;
+  height: 100px;
+}
+
 .menuContainer{
   display: flex;
   width: 40%;
@@ -22,7 +32,7 @@ body{
 .menuItem{
   display: inline-block;
   font-size: 30px;
-  margin-right:25px;
+  margin-right:45px;
 }
 
 .menuItemLink{
@@ -30,8 +40,7 @@ body{
 }
 
 .navBarContainer{
-  width: 35%;
-  height: 120%;
+  margin-left: 15px;
 }
 
 .wrap{
@@ -235,4 +244,65 @@ body{
 .socialArticleimgfb{
   width: 65%;
   height: 100%;
+}
+
+.footer{
+  width: 100%;
+  height: 300px;
+  background: #fff;
+}
+
+.leftFooter{
+  float: left;
+  margin-top: 100px;
+  margin-left: 115px;
+}
+
+.slogan{
+  font-style: italic;
+  font-size: 48px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+.menuAdminContainer{
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.menuAdminItem{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.menuAdminItemLink{
+  color: #3f3f3f;
+}
+
+.rightFooter{
+  float: right;
+}
+
+.socialAdminContainer{
+  margin-top: 125px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+}
+
+.socialAdminItem{
+  height: 75px;
+  width: 75px;
+}
+
+.socialAdminimg{
+  width: 100%;
+  height: 100%;
+}
+
+.socialAdminimgfb{
+  width: 65%;
+  height: 100%;
+  margin-left: 10px;
 }
