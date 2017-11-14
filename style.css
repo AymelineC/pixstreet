@@ -14,25 +14,26 @@ body{
   background: white;
 }
 
-.logoContainer{
-  float: left;
-  margin: -25px 0 0 -50px;
+.logoContainer {
+    float: left;
+    margin: -15px 0 0 -75px;
 }
 
-.logo{
-  width: 300px;
-  height: 100px;
+.logo {
+    width: 300px;
+    height: 75px;
 }
 
-.menuContainer{
-  display: flex;
-  width: 40%;
+.menuContainer {
+    display: flex;
+    width: 35%;
 }
 
-.menuItem{
-  display: inline-block;
-  font-size: 30px;
-  margin-right:45px;
+.menuItem {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 17px;
+    margin-top: 5px;
 }
 
 .menuItemLink{
@@ -144,7 +145,6 @@ body{
 .slides > div {
   flex-shrink: 0;
   width: 100%;
-  height: 3600px;
   background: #eee;
   transform-origin: center center;
   transform: scale(1);
@@ -199,29 +199,25 @@ body{
 
 .imgArticleBig{
   width: 100%;
-  height: 870px;
   margin-bottom: -14px;
-}
-
-.imgArticleBig{
-  width: 100%;
+  height: 630px;
 }
 
 .imgArticleLittle{
   width: 100%;
-  height: 370px;
   margin-bottom: -14px;
+  height: 270px;
 }
 
 .textArticleContainer{
   width: 100%;
-  height: 270px;
+  height: 240px;
   background: #fff;
   padding-top: 10px;
 }
 
 .articleUser{
-  font-size: 36px;
+  font-size: 30px;
   text-align: left;
   color: #3f3f3f;
   margin: 0 0 15px 20px;
@@ -234,7 +230,7 @@ body{
 
 .articleTitle{
   text-align: left;
-  font-size: 36px;
+  font-size: 30px;
   font-style: italic;
   color: #3f3f3f;
   margin: 0 0 15px 20px;
@@ -242,7 +238,7 @@ body{
 
 .articleFrom{
   text-align: left;
-  font-size: 36px;
+  font-size: 30px;
   color: #3f3f3f;
   margin: 0 0 15px 20px;
 }
@@ -270,14 +266,14 @@ body{
 
 .footer{
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: #fff;
 }
 
-.leftFooter{
-  float: left;
-  margin-top: 100px;
-  margin-left: 115px;
+.leftFooter {
+    float: left;
+    margin-top: 75px;
+    margin-left: 90px;
 }
 
 .slogan{
@@ -287,14 +283,14 @@ body{
   color: #3f3f3f;
 }
 
-.menuAdminContainer{
-  margin-top: 50px;
-  font-size: 36px;
+.menuAdminContainer {
+    margin-top: 50px;
+    font-size: 30px;
 }
 
-.menuAdminItem{
-  display: inline-block;
-  margin-right: 40px;
+.menuAdminItem {
+    display: inline-block;
+    margin-right: 40px;
 }
 
 .menuAdminItemLink{
@@ -310,17 +306,17 @@ body{
   float: right;
 }
 
-.socialAdminContainer{
-  margin-top: 125px;
-  margin-right: 100px;
-  display: flex;
-  justify-content: space-between;
-  width: 340px;
+.socialAdminContainer {
+    margin-top: 110px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
 }
 
 .socialAdminItem{
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
 }
 
 .socialAdminimg{
