@@ -1,5 +1,6 @@
 body{
   font-family: "Roboto", sans-serif;
+  background: #eee;
 }
 
 * {
@@ -91,6 +92,95 @@ body{
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
+}
+
+.place{
+  height: 100px;
+}
+
+.page{
+  width: 100%;
+  height: 3250px;
+  padding: 2.71%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articlesColumnContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 24%;
+}
+
+.article{
+  width: 100%;
+  height: 500px;
+  background: #fff;
+}
+
+.imgArticleContainer{
+  width: 100%;
+  height: 300px;
+  background: black;
+}
+
+.articleBig{
+  width: 100%;
+  height: 800px;
+  background: #fff;
+}
+
+.imgArticleContainerBig{
+  width: 100%;
+  height: 600px;
+  background: black;
+}
+
+.imgArticle{
+  width: 100%;
+  height: 100%;
+}
+
+.articleText{
+  width: 100%;
+  height: 150px;
+  padding: 15px 15px;
+}
+
+.articleTextItem{
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.socialArticleContainer{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.socialArticleItem{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.socialArticleLinkfb{
+  width: 100%;
+  height: 100%;
+  padding-left: 5px;
+}
+
+.socialArticleimg{
+  width: 100%;
+  height: 100%;
+}
+
+.socialArticleimgfb{
+  width: 65%;
+  height: 100%;
 }
 
 .footer{
