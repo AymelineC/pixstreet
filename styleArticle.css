@@ -100,10 +100,22 @@ body{
 
 .page{
   width: 100%;
-  height: 3250px;
+  height: 2750px;
   padding: 2.71%;
   display: flex;
   justify-content: space-between;
+}
+
+.pageTitleContainer{
+  width: 100%;
+  height: 200px;
+  padding: 75px;
+}
+
+.pageTitle{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .articlesColumnContainer{
@@ -115,25 +127,25 @@ body{
 
 .article{
   width: 100%;
-  height: 500px;
+  height: 400px;
   background: #fff;
 }
 
 .imgArticleContainer{
   width: 100%;
-  height: 300px;
+  height: 200px;
   background: black;
 }
 
 .articleBig{
   width: 100%;
-  height: 800px;
+  height: 700px;
   background: #fff;
 }
 
 .imgArticleContainerBig{
   width: 100%;
-  height: 600px;
+  height: 500px;
   background: black;
 }
 
@@ -152,6 +164,29 @@ body{
   text-align: left;
   font-size: 25px;
   margin-bottom: 15px;
+}
+
+.articleUser{
+  color: #3f3f3f;
+  transition: color .5s ease;
+}
+
+.articleUser:hover{
+  color: #000080;
+}
+
+.articleTitle{
+  color: #3f3f3f;
+  font-style: italic;
+}
+
+.articleFrom{
+  color: #3f3f3f;
+  transition: color .5s ease;
+}
+
+.articleFrom:hover{
+  color: #000080;
 }
 
 .socialArticleContainer{
